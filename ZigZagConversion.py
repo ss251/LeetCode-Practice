@@ -22,7 +22,6 @@ class Solution:
                 dict_storage[level] = i
             else:
                 dict_storage[level] += i
-            print(level)
             if ((level < stage) and (stage <= numRows)):
                 level += 1
         for i in dict_storage:
